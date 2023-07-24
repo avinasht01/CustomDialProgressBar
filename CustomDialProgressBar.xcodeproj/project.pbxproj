@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E149FABF2979208300E57C38 /* SemiCirclularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FABE2979208300E57C38 /* SemiCirclularProgressView.swift */; };
+		E149FAC1297920E800E57C38 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E149FAC0297920E800E57C38 /* CircularProgressView.swift */; };
+		E1A2F8A6296FDAF300B4008E /* CustomDialProgressBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2F8A5296FDAF300B4008E /* CustomDialProgressBarApp.swift */; };
+		E1A2F8A8296FDAF300B4008E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2F8A7296FDAF300B4008E /* ContentView.swift */; };
+		E1A2F8AA296FDAF400B4008E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A2F8A9296FDAF400B4008E /* Assets.xcassets */; };
+		E1A2F8AE296FDAF400B4008E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A2F8AD296FDAF400B4008E /* Preview Assets.xcassets */; };
+		E1A2F8B8296FDAF400B4008E /* CustomDialProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2F8B7296FDAF400B4008E /* CustomDialProgressBarTests.swift */; };
+		E1A2F8C2296FDAF400B4008E /* CustomDialProgressBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2F8C1296FDAF400B4008E /* CustomDialProgressBarUITests.swift */; };
+		E1A2F8C4296FDAF400B4008E /* CustomDialProgressBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2F8C3296FDAF400B4008E /* CustomDialProgressBarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1A2F8B4296FDAF400B4008E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A2F89A296FDAF300B4008E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1A2F8A1296FDAF300B4008E;
+			remoteInfo = CustomDialProgressBar;
+		};
+		E1A2F8BE296FDAF400B4008E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A2F89A296FDAF300B4008E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1A2F8A1296FDAF300B4008E;
+			remoteInfo = CustomDialProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E149FABE2979208300E57C38 /* SemiCirclularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemiCirclularProgressView.swift; sourceTree = "<group>"; };
+		E149FAC0297920E800E57C38 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		E1A2F8A2296FDAF300B4008E /* CustomDialProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDialProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A2F8A5296FDAF300B4008E /* CustomDialProgressBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialProgressBarApp.swift; sourceTree = "<group>"; };
+		E1A2F8A7296FDAF300B4008E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1A2F8A9296FDAF400B4008E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1A2F8AB296FDAF400B4008E /* CustomDialProgressBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomDialProgressBar.entitlements; sourceTree = "<group>"; };
+		E1A2F8AD296FDAF400B4008E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1A2F8B3296FDAF400B4008E /* CustomDialProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDialProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A2F8B7296FDAF400B4008E /* CustomDialProgressBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialProgressBarTests.swift; sourceTree = "<group>"; };
+		E1A2F8BD296FDAF400B4008E /* CustomDialProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDialProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A2F8C1296FDAF400B4008E /* CustomDialProgressBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialProgressBarUITests.swift; sourceTree = "<group>"; };
+		E1A2F8C3296FDAF400B4008E /* CustomDialProgressBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialProgressBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1A2F89F296FDAF300B4008E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A2F8B0296FDAF400B4008E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A2F8BA296FDAF400B4008E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1A2F899296FDAF300B4008E = {
+			isa = PBXGroup;
+			children = (
+				E1A2F8A4296FDAF300B4008E /* CustomDialProgressBar */,
+				E1A2F8B6296FDAF400B4008E /* CustomDialProgressBarTests */,
+				E1A2F8C0296FDAF400B4008E /* CustomDialProgressBarUITests */,
+				E1A2F8A3296FDAF300B4008E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A2F8A3296FDAF300B4008E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2F8A2296FDAF300B4008E /* CustomDialProgressBar.app */,
+				E1A2F8B3296FDAF400B4008E /* CustomDialProgressBarTests.xctest */,
+				E1A2F8BD296FDAF400B4008E /* CustomDialProgressBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1A2F8A4296FDAF300B4008E /* CustomDialProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2F8A5296FDAF300B4008E /* CustomDialProgressBarApp.swift */,
+				E1A2F8A7296FDAF300B4008E /* ContentView.swift */,
+				E1A2F8A9296FDAF400B4008E /* Assets.xcassets */,
+				E1A2F8AB296FDAF400B4008E /* CustomDialProgressBar.entitlements */,
+				E1A2F8AC296FDAF400B4008E /* Preview Content */,
+				E149FABE2979208300E57C38 /* SemiCirclularProgressView.swift */,
+				E149FAC0297920E800E57C38 /* CircularProgressView.swift */,
+			);
+			path = CustomDialProgressBar;
+			sourceTree = "<group>";
+		};
+		E1A2F8AC296FDAF400B4008E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2F8AD296FDAF400B4008E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1A2F8B6296FDAF400B4008E /* CustomDialProgressBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2F8B7296FDAF400B4008E /* CustomDialProgressBarTests.swift */,
+			);
+			path = CustomDialProgressBarTests;
+			sourceTree = "<group>";
+		};
+		E1A2F8C0296FDAF400B4008E /* CustomDialProgressBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A2F8C1296FDAF400B4008E /* CustomDialProgressBarUITests.swift */,
+				E1A2F8C3296FDAF400B4008E /* CustomDialProgressBarUITestsLaunchTests.swift */,
+			);
+			path = CustomDialProgressBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1A2F8A1296FDAF300B4008E /* CustomDialProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A2F8C7296FDAF400B4008E /* Build configuration list for PBXNativeTarget "CustomDialProgressBar" */;
+			buildPhases = (
+				E1A2F89E296FDAF300B4008E /* Sources */,
+				E1A2F89F296FDAF300B4008E /* Frameworks */,
+				E1A2F8A0296FDAF300B4008E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomDialProgressBar;
+			productName = CustomDialProgressBar;
+			productReference = E1A2F8A2296FDAF300B4008E /* CustomDialProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1A2F8B2296FDAF400B4008E /* CustomDialProgressBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A2F8CA296FDAF400B4008E /* Build configuration list for PBXNativeTarget "CustomDialProgressBarTests" */;
+			buildPhases = (
+				E1A2F8AF296FDAF400B4008E /* Sources */,
+				E1A2F8B0296FDAF400B4008E /* Frameworks */,
+				E1A2F8B1296FDAF400B4008E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A2F8B5296FDAF400B4008E /* PBXTargetDependency */,
+			);
+			name = CustomDialProgressBarTests;
+			productName = CustomDialProgressBarTests;
+			productReference = E1A2F8B3296FDAF400B4008E /* CustomDialProgressBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1A2F8BC296FDAF400B4008E /* CustomDialProgressBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A2F8CD296FDAF400B4008E /* Build configuration list for PBXNativeTarget "CustomDialProgressBarUITests" */;
+			buildPhases = (
+				E1A2F8B9296FDAF400B4008E /* Sources */,
+				E1A2F8BA296FDAF400B4008E /* Frameworks */,
+				E1A2F8BB296FDAF400B4008E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A2F8BF296FDAF400B4008E /* PBXTargetDependency */,
+			);
+			name = CustomDialProgressBarUITests;
+			productName = CustomDialProgressBarUITests;
+			productReference = E1A2F8BD296FDAF400B4008E /* CustomDialProgressBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A2F89A296FDAF300B4008E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E1A2F8A1296FDAF300B4008E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E1A2F8B2296FDAF400B4008E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E1A2F8A1296FDAF300B4008E;
+					};
+					E1A2F8BC296FDAF400B4008E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E1A2F8A1296FDAF300B4008E;
+					};
+				};
+			};
+			buildConfigurationList = E1A2F89D296FDAF300B4008E /* Build configuration list for PBXProject "CustomDialProgressBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1A2F899296FDAF300B4008E;
+			productRefGroup = E1A2F8A3296FDAF300B4008E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1A2F8A1296FDAF300B4008E /* CustomDialProgressBar */,
+				E1A2F8B2296FDAF400B4008E /* CustomDialProgressBarTests */,
+				E1A2F8BC296FDAF400B4008E /* CustomDialProgressBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1A2F8A0296FDAF300B4008E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A2F8AE296FDAF400B4008E /* Preview Assets.xcassets in Resources */,
+				E1A2F8AA296FDAF400B4008E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A2F8B1296FDAF400B4008E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A2F8BB296FDAF400B4008E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1A2F89E296FDAF300B4008E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E149FABF2979208300E57C38 /* SemiCirclularProgressView.swift in Sources */,
+				E1A2F8A8296FDAF300B4008E /* ContentView.swift in Sources */,
+				E149FAC1297920E800E57C38 /* CircularProgressView.swift in Sources */,
+				E1A2F8A6296FDAF300B4008E /* CustomDialProgressBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A2F8AF296FDAF400B4008E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A2F8B8296FDAF400B4008E /* CustomDialProgressBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A2F8B9296FDAF400B4008E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A2F8C4296FDAF400B4008E /* CustomDialProgressBarUITestsLaunchTests.swift in Sources */,
+				E1A2F8C2296FDAF400B4008E /* CustomDialProgressBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1A2F8B5296FDAF400B4008E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1A2F8A1296FDAF300B4008E /* CustomDialProgressBar */;
+			targetProxy = E1A2F8B4296FDAF400B4008E /* PBXContainerItemProxy */;
+		};
+		E1A2F8BF296FDAF400B4008E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1A2F8A1296FDAF300B4008E /* CustomDialProgressBar */;
+			targetProxy = E1A2F8BE296FDAF400B4008E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1A2F8C5296FDAF400B4008E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1A2F8C6296FDAF400B4008E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E1A2F8C8296FDAF400B4008E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CustomDialProgressBar/CustomDialProgressBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomDialProgressBar/Preview Content\"";
+				DEVELOPMENT_TEAM = H9P63UQ3CF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Safehouse.CustomDialProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1A2F8C9296FDAF400B4008E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CustomDialProgressBar/CustomDialProgressBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomDialProgressBar/Preview Content\"";
+				DEVELOPMENT_TEAM = H9P63UQ3CF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Safehouse.CustomDialProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1A2F8CB296FDAF400B4008E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9P63UQ3CF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Safehouse.CustomDialProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDialProgressBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomDialProgressBar";
+			};
+			name = Debug;
+		};
+		E1A2F8CC296FDAF400B4008E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9P63UQ3CF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Safehouse.CustomDialProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomDialProgressBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomDialProgressBar";
+			};
+			name = Release;
+		};
+		E1A2F8CE296FDAF400B4008E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9P63UQ3CF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Safehouse.CustomDialProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomDialProgressBar;
+			};
+			name = Debug;
+		};
+		E1A2F8CF296FDAF400B4008E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H9P63UQ3CF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Safehouse.CustomDialProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomDialProgressBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1A2F89D296FDAF300B4008E /* Build configuration list for PBXProject "CustomDialProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A2F8C5296FDAF400B4008E /* Debug */,
+				E1A2F8C6296FDAF400B4008E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A2F8C7296FDAF400B4008E /* Build configuration list for PBXNativeTarget "CustomDialProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A2F8C8296FDAF400B4008E /* Debug */,
+				E1A2F8C9296FDAF400B4008E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A2F8CA296FDAF400B4008E /* Build configuration list for PBXNativeTarget "CustomDialProgressBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A2F8CB296FDAF400B4008E /* Debug */,
+				E1A2F8CC296FDAF400B4008E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A2F8CD296FDAF400B4008E /* Build configuration list for PBXNativeTarget "CustomDialProgressBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A2F8CE296FDAF400B4008E /* Debug */,
+				E1A2F8CF296FDAF400B4008E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1A2F89A296FDAF300B4008E /* Project object */;
+}
