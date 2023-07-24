@@ -16,6 +16,8 @@
 		E1A2F8B8296FDAF400B4008E /* CustomDialProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2F8B7296FDAF400B4008E /* CustomDialProgressBarTests.swift */; };
 		E1A2F8C2296FDAF400B4008E /* CustomDialProgressBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2F8C1296FDAF400B4008E /* CustomDialProgressBarUITests.swift */; };
 		E1A2F8C4296FDAF400B4008E /* CustomDialProgressBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2F8C3296FDAF400B4008E /* CustomDialProgressBarUITestsLaunchTests.swift */; };
+		E1BA23192A6EBB6F000DE5CD /* CircularScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA23182A6EBB6F000DE5CD /* CircularScoreView.swift */; };
+		E1BA231B2A6EBB76000DE5CD /* SemiCircularScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA231A2A6EBB76000DE5CD /* SemiCircularScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E1A2F8BD296FDAF400B4008E /* CustomDialProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDialProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A2F8C1296FDAF400B4008E /* CustomDialProgressBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialProgressBarUITests.swift; sourceTree = "<group>"; };
 		E1A2F8C3296FDAF400B4008E /* CustomDialProgressBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialProgressBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1BA23182A6EBB6F000DE5CD /* CircularScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularScoreView.swift; sourceTree = "<group>"; };
+		E1BA231A2A6EBB76000DE5CD /* SemiCircularScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemiCircularScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		E1A2F8A4296FDAF300B4008E /* CustomDialProgressBar */ = {
 			isa = PBXGroup;
 			children = (
+				E1BA23172A6EBB50000DE5CD /* UpgradedProgressView */,
 				E1A2F8A5296FDAF300B4008E /* CustomDialProgressBarApp.swift */,
 				E1A2F8A7296FDAF300B4008E /* ContentView.swift */,
 				E1A2F8A9296FDAF400B4008E /* Assets.xcassets */,
@@ -133,6 +138,15 @@
 				E1A2F8C3296FDAF400B4008E /* CustomDialProgressBarUITestsLaunchTests.swift */,
 			);
 			path = CustomDialProgressBarUITests;
+			sourceTree = "<group>";
+		};
+		E1BA23172A6EBB50000DE5CD /* UpgradedProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA231A2A6EBB76000DE5CD /* SemiCircularScoreView.swift */,
+				E1BA23182A6EBB6F000DE5CD /* CircularScoreView.swift */,
+			);
+			path = UpgradedProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E149FABF2979208300E57C38 /* SemiCirclularProgressView.swift in Sources */,
+				E1BA23192A6EBB6F000DE5CD /* CircularScoreView.swift in Sources */,
+				E1BA231B2A6EBB76000DE5CD /* SemiCircularScoreView.swift in Sources */,
 				E1A2F8A8296FDAF300B4008E /* ContentView.swift in Sources */,
 				E149FAC1297920E800E57C38 /* CircularProgressView.swift in Sources */,
 				E1A2F8A6296FDAF300B4008E /* CustomDialProgressBarApp.swift in Sources */,
